@@ -121,3 +121,11 @@ nav2.css
 
 # DS Store
 .DS_Store
+
+# firebase
+.firebase/
+.firebaserc
+firebase.json
+
+# build
+build/
