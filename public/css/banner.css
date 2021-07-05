@@ -1,4 +1,5 @@
-/* ======== banner ========== */
+/* ============================= banner ========== */
+
 .banner {
   color: white;
   object-fit: contain;
@@ -6,12 +7,15 @@
 }
 
 .banner-contents {
+  font-family: Sans-Serif;
   margin-left: 30px;
   padding-top: 140px;
   height: 190px;
 }
 
 .banner-title {
+  font-family: "Bebas Neue", cursive;
+  letter-spacing: 2px;
   font-size: 3rem;
   font-weight: 800;
   padding-bottom: 0.3rem;

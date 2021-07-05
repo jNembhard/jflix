@@ -1,7 +1,11 @@
-/* ======== rows ========== */
+/* ============================ rows ========== */
+
 .row {
+  font-family: Sans-Serif;
   color: white;
   margin-left: 20px;
+  font-size: 1rem;
+  letter-spacing: 1px;
 }
 
 .row-posters {
