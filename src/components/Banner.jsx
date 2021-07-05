@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import axios from "../axios";
 import requests from "../requests";
 
-const baseImageUrl = "http://image.tmdb.org/t/p/original/";
+const baseImageUrl = "https://image.tmdb.org/t/p/original/";
 
 function Banner() {
   const [movie, setMovie] = useState([]);
@@ -34,7 +34,7 @@ function Banner() {
       className="banner"
       style={{
         backgroundSize: "cover",
-        backgroundImage: `url("https://image.tmdb.org/t/p/original/${movie?.backdrop_path}")`,
+        backgroundImage: `url(${baseImageUrl}${movie?.backdrop_path})`,
         backgroundPosition: "center center",
       }}
     >

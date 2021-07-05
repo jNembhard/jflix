@@ -1,15 +1,14 @@
 import React from "react";
 import Banner from "./Banner";
-// import Nav from "./Nav";
+import Nav from "./Nav";
 import Row from "./Row";
 import requests from "../requests";
 
 function App() {
   return (
     <div className="app">
-      {/* <Nav /> */}
+      <Nav />
       <Banner />
-      <h1>Hey Jason!</h1>
       <Row
         title="NETFLIX ORIGINALS"
         getUrl={requests.getNetfilxOriginals}
