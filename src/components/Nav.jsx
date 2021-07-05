@@ -19,7 +19,7 @@ function Nav() {
     <div className={`nav ${show && "nav-black"}`}>
       <img
         className="nav-logo"
-        src={process.env.PUBLIC_URL + "/images/JFlix.png"}
+        src={process.env.PUBLIC_URL + "/images/JasonFlix.png"}
         alt="Logo"
       />
       <img
