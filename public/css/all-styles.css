@@ -38,6 +38,7 @@
 .row-poster:hover {
   transform: scale(1.08);
   opacity: 1;
+  cursor: pointer;
 }
 
 .row-posterLarge {
@@ -45,6 +46,7 @@
 }
 .row-posterLarge:hover {
   transform: scale(1.09);
+  cursor: pointer;
 }
 
 /* ============================= banner ========== */
