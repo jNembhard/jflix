@@ -3,7 +3,7 @@ import axios from "../axios";
 import Youtube from "react-youtube";
 import movieTrailer from "movie-trailer";
 
-const baseImageUrl = "http://image.tmdb.org/t/p/original/";
+const baseImageUrl = "https://image.tmdb.org/t/p/original/";
 
 function Row(props) {
   const [movies, setMovies] = useState([]);
