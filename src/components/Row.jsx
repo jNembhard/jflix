@@ -55,7 +55,7 @@ function Row(props) {
               props.isLargeRow ? movie.poster_path : movie.backdrop_path
             }`}
             onError={(event) => (event.target.style.display = "none")}
-            alt={movie.name}
+            alt="Netflix Movie"
           />
         ))}
       </div>
