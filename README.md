@@ -8,7 +8,7 @@
 
 This web application was built with the purpose of extending my knowledge in Frontend development methods. The end result is an application similar to Netflix built with a React framework.
 
-Click the link to view the [Jasonflix website](https://http://jason-flix.web.app/).
+Click the link to view the [Jasonflix website](https://jason-flix.web.app/).
 
 ## API Reference
 
