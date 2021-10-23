@@ -56,6 +56,8 @@ function Row(props) {
             }`}
             onError={(event) => (event.target.style.display = "none")}
             alt="Netflix Movie"
+            width="100%"
+            height="250px"
           />
         ))}
       </div>
