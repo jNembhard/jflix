@@ -23,7 +23,6 @@ function Banner() {
   }, []);
 
   function truncate(str, n) {
-    // Reduce description lengths of summaries
     return str?.length > n ? str.substr(0, n - 1) + "..." : str;
   }
 

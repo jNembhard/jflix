@@ -10,14 +10,13 @@ function Row(props) {
   const [trailerUrl, setTrailerUrl] = useState("");
 
   useEffect(() => {
-    // if [], run once when the row loads, and don't run again
     async function getData() {
       const request = await axios.get(props.getUrl);
       setMovies(request.data.results);
       return request;
     }
     getData();
-  }, [props.getUrl]); // array dependent in async function
+  }, [props.getUrl]);
 
   const opts = {
     height: "390px",
