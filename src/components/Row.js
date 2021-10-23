@@ -3,7 +3,7 @@ import axios from "../axios";
 import Youtube from "react-youtube";
 import movieTrailer from "movie-trailer";
 
-const baseImageUrl = "https://image.tmdb.org/t/p/original/";
+const baseImageUrl = "https://image.tmdb.org/t/p/w500/";
 
 function Row(props) {
   const [movies, setMovies] = useState([]);
@@ -20,7 +20,7 @@ function Row(props) {
   }, [props.getUrl]); // array dependent in async function
 
   const opts = {
-    height: "390",
+    height: "390px",
     width: "100%",
     playerVars: {
       // https://developers.google.com/youtube/player_parameters
@@ -56,8 +56,6 @@ function Row(props) {
             }`}
             onError={(event) => (event.target.style.display = "none")}
             alt="Netflix Movie"
-            width="100%"
-            height="250px"
           />
         ))}
       </div>
