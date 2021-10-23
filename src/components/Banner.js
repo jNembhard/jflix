@@ -39,7 +39,6 @@ function Banner() {
       }}
     >
       <div className="banner-contents">
-        {/* error handling optinal if reference is invalid */}
         <h1 className="banner-title">
           {movie?.title || movie?.name || movie?.original_name}
         </h1>

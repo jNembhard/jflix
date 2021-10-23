@@ -5,7 +5,6 @@ function Nav() {
 
   useEffect(() => {
     window.addEventListener("scroll", () => {
-      // actives scroll at specific y-axis scroll value
       if (window.scrollY > 1) {
         setShow(true);
       } else setShow(false);
